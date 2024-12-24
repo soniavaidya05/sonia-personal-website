@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background: #1E1E1E;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo img {
+    width: 80px; /* Specify the default width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 60%; /* Prevent the image from exceeding its container */
+    cursor: pointer;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+    margin-left: 20px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__links:hover {
+    color: #9994C9; 
+}
+
+/* TODO: add hover logic for the home button icon */
+
+.video {
+    max-width: 300px;  
+    height: 300px;    
+    margin-bottom: 900px;
+}
+
+.aboutme__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+}
+
+#headshot__photo img {
+    height: auto; 
+    margin-right: 50px; 
+    padding: 10px; 
+    max-width: 50%;
+    flex: 0 0 auto;
+  }
+  
+.aboutme__text {
+flex: 1; 
+padding: 90px; 
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactinfo__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 150px;
+}
+
+.contactinfo__text {
+    flex: 0; 
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__container {
+    background: #272727;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+}
