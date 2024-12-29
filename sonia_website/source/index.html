@@ -36,17 +36,19 @@
             </ul>
     </div> 
     </nav>
+
     <!-- The video of subway train -->
     <video autoplay muted width="100%" height="auto">
-        <source src="/source/videos/FINALSTATION.mp4" type="video/mp4">
+        <source src="videos/FINALSTATION.mp4" type="video/mp4">
     </video>    
+    <canvas id="matrix"></canvas>
     <!-- The about me container, image, paragraph -->
     <div class="aboutme__container">
         <img src="images/headshot2.jpg" alt="Sonia's Headshot Photo" id="headshot__photo" width="500px" height="auto">
         <div class="aboutme__text">
             <style>
                 p {
-                  margin-bottom: 27px; /* Adjust this value for larger spaces */
+                  margin-bottom: 25px; /* Adjust this value for larger spaces */
                 }
               </style>
             <p>I’m Sonia Vaidya, a computer science undergraduate at the University of Toronto.<p> 
@@ -68,5 +70,6 @@
         </div>
     </div>
     <div class="footer__container"></div> 
+    <script src="./app.js"></script>
 </body>
 </html>
