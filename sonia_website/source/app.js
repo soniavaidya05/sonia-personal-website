@@ -22,7 +22,7 @@ setInterval(function () {
         var r = m.random();
         var str = r > 0.5 ? '1' : '0';
         c.fillText(str, i * 10, v);
-        v += 9;
+        v += 11;
         var ret = v > h ? 0 : v; 
         return ret;
     });

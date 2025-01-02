@@ -82,14 +82,15 @@
 #headshot__photo img {
     height: auto; 
     margin-right: 50px; 
-    padding: 10px; 
+    padding: 5px; 
     max-width: 50%;
-    flex: 0 0 auto;
+    flex: 1 0 auto;
   }
   
 .aboutme__text {
     flex: 1; 
     padding: 90px; 
+    min-width: 40%;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -101,7 +102,7 @@
     align-items: center;
     width: 100%;
     margin: auto;
-    padding: 150px;
+    padding: 100px;
 }
 
 .contactinfo__text {
@@ -126,14 +127,84 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: -1; /* Ensures it's behind the content */
+    z-index: -1; /* Behind the content */
 }
 
-/* Overlay container */
 .content-overlay {
     position: sticky;
-    z-index: 1; /* Ensures it's above the canvas */
+    z-index: 1; /* Above the canvas */
     padding: 20px;
-    background-color: rgba(39, 39, 39, 0.8); /* Semi-transparent background for readability */
-    color: #fff; /* Text color for contrast */
+    color: #fff; 
+}
+
+.culinaryconnections__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    width: 100%;
+    margin: 50px;
+}
+
+.culinaryconnections__text {
+    flex: 1; 
+    text-align: left;
+    padding: 90px; 
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Space between projects */
+    padding: 50px 20px;
+    background-color: #1E1E1E; /* Match navbar background for consistency */
+    color: #fff;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.project img, .project video {
+    width: 60%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #9994C9; /* Accent color for headings */
+}
+
+.project p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #9994C9; /* Match heading color */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #9994C9;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.project a:hover {
+    background-color: #9994C9;
+    color: #1E1E1E;
 }

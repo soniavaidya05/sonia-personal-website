@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">
+                <img src="images/homelogo.jpg" alt="The home logo">
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="comp_sci.html" class="navbar__links">
+                    Computer Science
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="creative_work.html" class="navbar__links">
+                    Creative Work
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="community.html" class="navbar__links">
+                    Community
+                    </a>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+    
+<h1 style="margin: 10px; background-color: #1E1E1E; color: #9994C9;">Projects</h1>
+
+    <div class="projects-section">
+        <!-- Project 1 -->
+        <div class="project">
+            <img src="images/maps.jpg" alt="Culinary Connections" class="resized-map">
+            <h2>Culinary Connections</h2>
+            <p><strong>Collaborators:</strong> Ayusha Thapa, Alisha Zariff</p>
+            <p><strong>Tools:</strong> Python, HTML, Folium, Tkinter</p>
+            <p>Culinary Connections is a Python-based restaurant recommendation and social networking application. Users can customize 9+ preferences such as general location, cuisine type, takeout availability, star rating, and more to be matched with restaurants displayed on a map. Users can also connect with each other to get tailored recommendations. We simulated this aspect of the program by creating dummy users associated with each restaurant. </p>
+            <p> </p>
+            <p>I processed a Yelp dataset of 150,000+ businesses and 1.2M+ attributes, and created tree data structures and graph traversal methods to model restaurant relationships and attributes.</p>
+            <a href="https://github.com/soniavaidya05/culinary-connections">GitHub</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+            <video autoplay muted width="90%" height="auto">
+                <source src="videos/harvest_aid.mp4" type="video/mp4">
+            </video>    
+            <h2>Harvest Aid</h2>
+            <p><strong>Collaborators:</strong> Maira Masroor, Mohammadamin Sedaghat, Nathan Romero</p>
+            <p><strong>Tools:</strong> Python, HTML, CSS (Tailwind), Flask, React, Node.js</p>
+            <p>
+                We created this application during <strong>NewHacks 2024</strong>, an annual hackathon at the University of Toronto. Harvest Aid supports farmers in remote areas to enable efficient resource pooling during times of need— and especially during natural disasters. Just make an account, browse listings by keyword or category, and click a listing to contact the farmer and arrange a trade or purchase.
+                Use the + button to create a listing and share your resources. I integrated the front and back ends by learning Flask at the hackathon itself!
+            </p>
+            <a href="https://github.com/soniavaidya05/harvestaid">GitHub</a>
+            <a href="https://www.linkedin.com/posts/sonia-vaidya-635331205_we-made-an-app-to-support-farmers-during-activity-7262449149797703680-4FnZ?utm_source=share&utm_medium=member_desktop">LinkedIn Post</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project">
+            <video autoplay muted width="60%" height="auto">
+                <source src="videos/dr_mario_demo.mp4" type="video/mp4">
+            </video> 
+            <h2>Dr. Mario</h2>
+            <p><strong>Collaborators:</strong> Anisha Latchman</p>
+            <p><strong>Tools:</strong> MIPS Assembly</p>
+            <p>Developed the 1990 game Dr. Mario in MIPS assembly, and learned about assembly syntax, memory management, and hardware interaction. 
+
+                We configured bitmap displays, managed memory-mapped I/O for reading keyboard input and writing pixel data, and implemented game features such as gravity, collision detection, 3 levels, and pause/game over/restart/quit functionality. 
+                
+                This was a very fun way to learn about memory, processors, and low-level programming!</p>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project">
+            <img src="images/blackjack_uml.jpg" alt="Blackjack Simulator">
+            <h2>Blackjack Simulator</h2>
+            <p><strong>Collaborators:</strong> Pooja Mangra, Jacob Liso, Matt Dahlgren, Andrei Shvorkets</p>
+            <p><strong>Tools:</strong> Java </p>
+            <p>The aim of this simple project was learning about the SOLID design principles and clean architecture, which is why I included the UML diagram above. Game modes include Free Play Mode, Assisted Mode, and Learn Mode, along with account creation and a post-game report. 
+
+                I gained valuable insights into software design, documentation, and the critical role of code reviews and clear communication. I also learned the importance of setting realistic goals and prioritizing quality over quantity when working within tight deadlines.</p>
+            <a href="https://github.com/matt-dahlgren/casino-simulator">GitHub</a>
+        </div>
+    </div>
+    
+</body>
+</html>
