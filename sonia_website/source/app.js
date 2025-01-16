@@ -17,7 +17,7 @@ window.addEventListener('resize', function() {
 setInterval(function () {
     c.fillStyle = 'rgba(39,39,39,0.05)';
     c.fillRect(0, 0, w, h);
-    c.fillStyle = 'rgba(74,63,178,1)';
+    c.fillStyle = 'rgba(137, 104, 205,0.8)';
     p = p.map(function (v, i) {
         var r = m.random();
         var str = r > 0.5 ? '1' : '0';
@@ -26,4 +26,4 @@ setInterval(function () {
         var ret = v > h ? 0 : v; 
         return ret;
     });
-}, 120);
+}, 110);
